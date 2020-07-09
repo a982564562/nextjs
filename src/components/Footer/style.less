@@ -1,0 +1,138 @@
+.ft {
+	background: #242424;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.ft-links {
+		width: 418px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 0;
+		margin-bottom: -25px;
+		> li {
+			font-size: 14px;
+			color: #ffffff;
+			> a {
+				cursor: pointer;
+			}
+			a:hover {
+				color: #16b9a6;
+			}
+		}
+	}
+}
+
+.ft-header {
+	height: 83px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	> img,
+	ul > li {
+		display: inline-block;
+	}
+	img {
+		width: 116px;
+		height: 49px;
+	}
+}
+
+.ft-content {
+	height: 267px;
+	padding: 20px 0 29px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #515151;
+	border-left: none;
+	border-right: none;
+	.ft-content-left {
+		> i {
+			width: 31px;
+			height: 31px;
+			font-size: 31px;
+			margin-right: 10px;
+			vertical-align: top;
+			color: #ffffff;
+		}
+		> div {
+			display: inline-block;
+			h1,
+			h4,
+			span {
+				color: #ffffff;
+			}
+			h1,
+			h4 {
+				display: inline-block;
+			}
+			h1 {
+				font-size: 26px;
+			}
+			h4 {
+				font-size: 18px;
+			}
+			span {
+				display: block;
+				font-size: 14px;
+			}
+		}
+	}
+	.ft-content-middle {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+		height: 100%;
+		.ft-download,
+		.ft-mini-program {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			> img {
+				width: 110px;
+				height: 110px;
+				display: block;
+			}
+			> span {
+				margin-top: 16px;
+				display: inline-block;
+				font-size: 12px;
+				color: #ffffff;
+				line-height: 25px;
+			}
+		}
+		.ft-download {
+			margin-right: 60px;
+		}
+	}
+}
+
+.ft-footer {
+	height: 72px;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	> li {
+		display: inline-block;
+		color: #bdbdbd;
+		font-size: 14px;
+		margin-right: 29px;
+		> a {
+			cursor: pointer;
+			> img {
+				display: inline-block;
+				width: 19px;
+				height: 20px;
+				margin-right: 10px;
+			}
+			> span {
+				display: inline-block;
+				vertical-align: bottom;
+			}
+		}
+	}
+}
