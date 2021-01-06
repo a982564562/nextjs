@@ -33,7 +33,7 @@
 		"@zeit/next-sass": "^1.0.1",
 		"atob": "^2.1.2",
 		"autoprefixer": "^9.8.0",
-		"axios": "^0.19.2",
+		"axios": "^0.21.1",
 		"babel-plugin-import": "^1.13.0",
 		"cross-env": "^7.0.2",
 		"debug": "^4.1.1",
